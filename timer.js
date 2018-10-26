@@ -3,6 +3,6 @@ var elevation = 0;
 setInterval(
   function() {
     document.getElementById("timer").innerHTML =elevation.toFixed(1) + " feet";
-    elevation += ((39000 / 60) / 60) / 1000;
+    elevation += ((39000 / 60) / 60) / 100;
   }, 
 1);
