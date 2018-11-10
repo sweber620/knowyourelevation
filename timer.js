@@ -1,5 +1,5 @@
 var elevation = 0;
-var thingy;
+var thingy = 0;
 var sec = 0;
 var min = 60;
 
