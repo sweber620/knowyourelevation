@@ -20,7 +20,7 @@ setInterval(
           document.getElementById("TtimerM").innerHTML = min;
           thingy = 1;
         }
-      } else if (cheatervar == 2) {elevation = 39000;}
+      } 
       document.getElementById("Etimer").innerHTML =elevation.toFixed(1) + " feet";
       elevation += ((39000 / 60) / 40) / 250;
       
