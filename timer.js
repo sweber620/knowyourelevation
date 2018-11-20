@@ -1,7 +1,7 @@
 var elevation = 0;
-var thingy = 0;
-var sec = 0;
-var min = 40;
+var thingy = 1;
+var sec = 60;
+var min = 39;
 
 setInterval(
   function() {
@@ -16,7 +16,7 @@ setInterval(
         } else sec -= 1;
         document.getElementById("TtimerS").innerHTML = sec;
        document.getElementById("TtimerM").innerHTML = min;
-        thingy = 0;
+        thingy = 1;
       }
       document.getElementById("Etimer").innerHTML =elevation.toFixed(1) + " feet";
       elevation += ((39000 / 60) / 40) / 250;
