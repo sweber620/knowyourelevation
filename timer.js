@@ -9,7 +9,7 @@ setInterval(
       document.getElementById("body").style.backgroundColor="black";
     } else {
       thingy += 1;
-      if (thingy == 1000) {
+      if (thingy == 250) {
           if (sec == 1) {
           sec = 60;
           min -= 1;
