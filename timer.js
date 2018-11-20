@@ -7,6 +7,7 @@ setInterval(
   function() {
     if (elevation >= 39000) {
       document.getElementById("body").style.backgroundColor="black";
+      document.getElementById("container").display="none";
     } else {
       thingy += 1;
       if (thingy == 250) {
