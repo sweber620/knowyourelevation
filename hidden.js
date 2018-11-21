@@ -1,7 +1,10 @@
-var placeholder;
+var dev = false;
 var cheatervar = 0;
 function showRiddle() {
   document.getElementById("topLeftStuff").display="none";
+}
+function toggleDev() {
+  dev = true;
 }
   
 window.addEventListener('keypress', function(num=1) {
@@ -9,7 +12,7 @@ window.addEventListener('keypress', function(num=1) {
     switch(num) {
       case 1: if(document.getElementById("capitalLocation").value == "Helsinki") {showRiddle();}
     }
-  } else if (event.keyCode == 123 || event.keyCode == 17 || event.keyCode == 122) {
+  } else if (event.keyCode == 123 || event.keyCode == 17 || event.keyCode == 122 && dev == false) {
     if (cheatervar != 2) {
       alert("No cheating! Next time, you'll automatically lose!"); 
       cheatervar+=1;
