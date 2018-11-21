@@ -4,7 +4,7 @@ function showRiddle() {
   document.getElementById("topLeftStuff").display="none";
 }
   
-window.addEventListener('keyup', function(num=1) {
+window.addEventListener('keypress', function(num=1) {
   if (event.keyCode == 13) { //enter
     switch(num) {
       case 1: if(document.getElementById("capitalLocation").value == "Helsinki") {showRiddle();}
