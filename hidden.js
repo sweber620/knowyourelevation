@@ -6,7 +6,8 @@ function showRiddle() {
 function toggleDev() {
   dev = true;
 }
-  
+document.getElementById("devButton").onclick="toggleDev();";
+
 window.addEventListener('keypress', function(num=1) {
   if (event.keyCode == 13) { //enter
     switch(num) {
@@ -18,5 +19,4 @@ window.addEventListener('keypress', function(num=1) {
       cheatervar+=1;
     } else if (cheatervar == 2) {elevation = 39000;}
   }
-  
 });
