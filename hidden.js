@@ -12,4 +12,4 @@ function showRiddle() {
   document.getElementById("topLeftStuff").display="none";
 }
   
-setInterval(input(1),1);
+window.addEventListener('keyup', input(1));
