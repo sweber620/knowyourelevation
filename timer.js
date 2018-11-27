@@ -20,7 +20,7 @@ setInterval(
          thingy = 1;
        }
       document.getElementById("Etimer").innerHTML =elevation.toFixed(1) + " feet";
-      elevation += ((39000 / 60) / 40) / 250;
+      elevation += (((39000 / 60) / 40) / 250) * mult;
       
     }
   }, 
