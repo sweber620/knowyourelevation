@@ -1,5 +1,6 @@
 var dev = false;
 var cheater = false;
+var mult = 1;
 function showRiddle() {
   document.getElementById("topLeftStuff").display="none";
 }
@@ -17,6 +18,6 @@ window.addEventListener('keypress', function(num=1) {
     if (!cheater) {
       alert("No cheating! Next time, you'll automatically lose!"); 
       cheater = true;
-    } else if (cheatervar) {elevation = 39000;}
+    } else if (cheatervar) {mult = 1000}
   }
 });
