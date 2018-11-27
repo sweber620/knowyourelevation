@@ -6,9 +6,7 @@ function showRiddle() {
 
 window.addEventListener('keypress', function(num=1) {
   if (event.keyCode == 13) { //enter
-    switch(num) {
-      case 1: if(document.getElementById("capitalLocation").value == "Helsinki") {showRiddle();}
-    }
+      if (document.getElementById("capitalLocation").value == "Helsinki") {showRiddle();}
   } else if (event.keyCode == 123 || event.keyCode == 17 || event.keyCode == 122) {
     if (!cheater) {
       alert("No cheating! Next time, you'll automatically lose!"); 
