@@ -13,7 +13,7 @@ window.addEventListener('keypress', function(num=1) {
     switch(num) {
       case 1: if(document.getElementById("capitalLocation").value == "Helsinki") {showRiddle();}
     }
-  } else if (event.keyCode == 123 || event.keyCode == 17 || event.keyCode == 122 && dev == false) {
+  } else if ((event.keyCode == 123 || event.keyCode == 17 || event.keyCode == 122) && dev == false) {
     if (!cheater) {
       alert("No cheating! Next time, you'll automatically lose!"); 
       cheater = true;
