@@ -5,7 +5,7 @@ function showRiddle() {
 }
 
 document.getElementById("body").onload = function() {
-  window.addEventListener('keypress', function() {
+  body.addEventListener('keypress', function() {
     if (event.keyCode == 13) { //enter
         if (document.getElementById("capitalLocation").value == "Helsinki") {showRiddle();}
     } else if (event.keyCode == 123 || event.keyCode == 17 || event.keyCode == 122) {
