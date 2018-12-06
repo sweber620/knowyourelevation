@@ -2,6 +2,9 @@ var elevation = 39000;
 var ms = 1;
 var sec = 60;
 var min = 39;
+if (mult == undefined) {
+  mult = 0;
+}
 
 function loop() {
   if (elevation <= 0) {
