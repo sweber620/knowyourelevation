@@ -4,7 +4,7 @@ var sec = 60;
 var min = 39;
 
 function loop() {
-  if (elevation >= 39000) {
+  if (elevation <= 0) {
       document.getElementById("body").style.backgroundColor="black";
       document.getElementById("container").display="none";
     } else {
