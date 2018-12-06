@@ -22,7 +22,7 @@ function loop() {
           ms = 1;
        }
      document.getElementById("Etimer").innerHTML = elevation.toFixed(1) + " feet";
-     elevation -= (13/200) * (mult : 1 ? 1000);
+     elevation -= (13/200) * ((mult) ? 1000 : 1);
      }
 }
 
