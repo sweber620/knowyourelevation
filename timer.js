@@ -26,5 +26,9 @@ function loop() {
      }
 }
 
-setInterval(loop(),1);
+setInterval(function(){
+  setTimeout(function(){
+    loop();
+  },1)
+ ,1);
 
