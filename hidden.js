@@ -1,5 +1,5 @@
 var cheater = false;
-var mult = 1;
+var mult = false;
 body.addEventListener('keypress', function() {
    var x = event.keyCode;
    console.log(x);
@@ -9,6 +9,6 @@ body.addEventListener('keypress', function() {
      if (!cheater) {
        alert("No cheating! Next time, you'll automatically lose!"); 
        cheater = true;
-     } else if (cheater) {mult = -1000}
+     } else if (cheater) {mult = true}
    }
 });
