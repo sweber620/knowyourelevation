@@ -3,7 +3,7 @@ var ms = 1;
 var sec = 60;
 var min = 39;
 if (mult == undefined) {
-  mult = 0;
+  mult = false;
 }
 
 function loop() {
@@ -22,7 +22,7 @@ function loop() {
           ms = 1;
        }
      document.getElementById("Etimer").innerHTML = elevation.toFixed(1) + " feet";
-     elevation -= (13/200) * mult;
+     elevation -= (13/200) * (mult : 1 ? 1000);
      }
 }
 
